@@ -115,6 +115,11 @@ header{
 /* Resp */
 
 @media screen and (min-width: 992px){
+
+    .photo-container img{
+        width: 150px;
+    }
+
     .photo{
         width: 100%;
         height: 91.4vh;
