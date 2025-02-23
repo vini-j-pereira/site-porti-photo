@@ -72,6 +72,8 @@ header{
     margin-top: 10px;
     margin-right: 15px;
     color: #fafafa;
+    cursor: pointer;
+    transition: 0.2s ease-in;
 }
 
 .photo-container img{
@@ -119,4 +121,12 @@ header{
     .photo-container{
         height: 96%;
     }
+
+    .navbar-list li a:hover{
+        color: #fff455d8;
+    }
+    .photo-img i:hover{
+        color: #fff455d8;
+    }
+
 }
