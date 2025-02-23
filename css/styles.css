@@ -67,7 +67,6 @@ header{
     align-items: start;
     justify-content: space-between;
     width: 100%;
-    z-index: 0;
 }
 
 .photo-img i{
@@ -80,8 +79,9 @@ header{
 }
 
 .photo-container img{
-    width: 150px;
-    margin-top: -40px;
+    width: 120px;
+    margin-top: -10px;
+    z-index: 0;
 }
 
 .photo-text{
