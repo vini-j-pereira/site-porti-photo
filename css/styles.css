@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    
+    --clr-white: #fafafa;
+    --clr-black: #000;
+
+    --spacing: 0.25rem;
+}
+
+.navbar-list{
+    display: flex;
+    background-color: #000;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.navbar-list li a{
+    color: #fafafa;
+    cursor: pointer;
+    font-family: "Antonio", serif;
+    font-size: 16px;
+}
+
+.photo{
+    width: 100%;
+    height: 90vh;
+    background-color: #000;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-container{
+    background-image: url(../img/vinicius-henrique-photography-Y7bikuDfSVA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98%;
+    width: 95%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo-img{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.photo-img i{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #fafafa;
+}
+
+.photo-container img{
+    width: 150px;
+    margin-top: -40px;
+}
+
+.photo-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 15px;
+    color: #fafafa;
+    font-family: "Antonio", serif;
+}
+
+.photo-text span{
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.photo-text h2{
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.photo-text p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 100;
+}
