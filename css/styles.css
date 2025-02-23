@@ -66,6 +66,7 @@ header{
     align-items: start;
     justify-content: space-between;
     width: 100%;
+    z-index: 0;
 }
 
 .photo-img i{
